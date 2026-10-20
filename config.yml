@@ -1,0 +1,16 @@
+# Master switch (also changed by /bd on and /bd off)
+enabled: true
+
+# What full blocks look like to non-op players.
+# Try STONE, MUD_BRICKS, STONE_BRICKS, DEEPSLATE, SMOOTH_STONE, ...
+replacement: STONE
+
+# Full-cube blocks that should NOT be disguised (kept as their real look)
+keep-materials:
+  - BEDROCK
+  - BARRIER
+  - GLASS
+
+# false = furnaces, crafting tables, barrels, note blocks etc. stay visible
+# true  = they are disguised too (players could not tell them apart)
+disguise-interactable-blocks: false
